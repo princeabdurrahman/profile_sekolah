@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/galeriFragment">
+
+    <fragment
+        android:id="@+id/galeriFragment"
+        android:name="com.example.aplikasiprofilesekolah.Fragment.GaleriFragment"
+        android:label="fragment_galeri"
+        tools:layout="@layout/fragment_galeri" />
+    <fragment
+        android:id="@+id/prestasi_Fragment"
+        android:name="com.example.aplikasiprofilesekolah.Fragment.Presentasi_Fragment"
+        android:label="fragment_presentasi_"
+        tools:layout="@layout/fragment_prestasi_" />
+    <fragment
+        android:id="@+id/sekolahFragment"
+        android:name="com.example.aplikasiprofilesekolah.Fragment.SekolahFragment"
+        android:label="fragment_sekolah"
+        tools:layout="@layout/fragment_sekolah" />
+    <fragment
+        android:id="@+id/founderFragment"
+        android:name="com.example.aplikasiprofilesekolah.Fragment.FounderFragment"
+        android:label="fragment_founder"
+        tools:layout="@layout/fragment_founder" />
+    <fragment
+        android:id="@+id/ekskulFragment"
+        android:name="com.example.aplikasiprofilesekolah.Fragment.EkskulFragment"
+        android:label="fragment_ekskul"
+        tools:layout="@layout/fragment_ekskul" />
+</navigation>
